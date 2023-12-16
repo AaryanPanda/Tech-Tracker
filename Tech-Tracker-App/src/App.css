@@ -154,8 +154,8 @@ nav{
 #main-container{
   background-color: #d6c29c;
   margin-top: 5vh;
-  height: 70vh;
-  width: 55vw;
+  height: 75vh;
+  width: 75vw;
   border-radius: 10px;
   display: flex;
   justify-content: flex-end;
@@ -163,7 +163,7 @@ nav{
 
 #quiz-container{
   height: 100%;
-  width: 54vw;
+  width: 74.5vw;
   border-radius: 0 10px 10px 0;
   padding-bottom: 10vh;
   background-image: url('./assets/lightbg.jpeg');
@@ -190,7 +190,7 @@ nav{
 
 #ques-no{
   justify-content: space-between;
-  width: 18%;
+  width: 14%;
   padding-left: 1vw;
 }
 
@@ -203,7 +203,7 @@ nav{
   justify-content: flex-start;
   border-radius: 5px;
   align-items: center;
-  width: 20vw;
+  width: 29vw;
   transition: transform ease-in-out 0.4s;
 }
 
@@ -230,12 +230,12 @@ ul{
   align-items: center;
   flex-wrap: wrap;
   height: 25vh;
-  width: 45vw;
+  width: 60vw;
 }
 
 li button{
   height: 6vh;
-  width: 17vw;
+  width: 26vw;
   background-color: #eadfcb;
   border: 2px solid #d9b285;
   border-radius: 0 5px 5px 0;
@@ -246,9 +246,9 @@ li button{
 }
 
 #bottom-buttons{
-  padding-top: 6%;
+  padding-top: 8%;
   height: 6vh;
-  width: 50vw;
+  width: 40vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -256,7 +256,7 @@ li button{
 
 #bottom-buttons button, #quit, #home{
   height: 4.5vh;
-  width: 12.5vw;
+  width: 200px;
   color: red;
   border-radius: 15px;
   cursor: pointer;
@@ -272,10 +272,13 @@ li button{
 }
 
 #quit{
-  width: 10vw;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-text-stroke: 1px black;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 20px;
   transform: translateY(105%);
 }
 
@@ -285,7 +288,7 @@ li button{
   width: 60vw;
   background-color: #ffffff;
   border: 2px solid rgb(178, 178, 178);
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 #result-container img{
@@ -310,14 +313,15 @@ li button{
 #home{
   transform: translateY(-125%);
   width: 10vw;
+  height: 5vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   color: #ca8012;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 800;
   border: 1.5px solid #5d5d5d;
-  -webkit-text-stroke: #a6a29d;
+  -webkit-text-stroke: 1px #5f5f60;
 }
 
 #home:hover{

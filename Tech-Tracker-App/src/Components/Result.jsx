@@ -23,7 +23,7 @@ function Result(props) {
         <img src={props.score > 8 ? `${tick}` : `${aww}`}/>
         <h3> {props.score > 8 ? good : bad}</h3>
         <h2>{props.score} of 10 were correct - {(props.score/10)*100}% </h2>
-        <button id="home" onClick={props.displayHome} style={{backgroundColor: darkMode ? 'E8E8E8' : '#FFEDCD'}}>Home <img src={home}/></button>
+        <button id="home" onClick={props.displayHome} style={{backgroundColor: darkMode ? '#E8E8E8' : '#FFEDCD'}}>Home <img src={home}/></button>
 
         </div>
     </div>
